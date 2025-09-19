@@ -13,7 +13,7 @@
 }
 */
 
-const projects = []; // empty now (scalable)
+const projects = []; // empty 
 
 (function renderProjects() {
   const grid = document.getElementById('projects-grid');

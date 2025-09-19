@@ -1,7 +1,3 @@
-/* ===========================
-   styles.css — Full (copy)
-   =========================== */
-
 /* THEME VARIABLES */
 :root {
   --bg: #071019;
@@ -193,7 +189,7 @@ body {
 .btn-small { padding:0.35rem 0.75rem; font-size:0.85rem; margin-left:0.5rem; }
 
 /* RESPONSIVE */
-@media (max-width:980px) {
+ @media (max-width:980px) {
   .hero-inner, .about-grid, .japanese-grid, .education-grid { grid-template-columns: 1fr; }
   .nav-links { display: none; }
   .jp-art img { height:140px; }

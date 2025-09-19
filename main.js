@@ -1,5 +1,3 @@
-// main.js
-// Robust interactivity for Kaushik's portfolio
 
 (function () {
   'use strict';
