@@ -152,7 +152,7 @@ body {
 /* CERTIFICATES */
 .cert-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); gap:1rem; margin-top:1rem; }
 .cert-card { display:flex; gap:1rem; align-items:flex-start; }
-.cert-thumbnail img { width:150px; height:95px; object-fit:cover; border-radius:7px; border:1px solid rgba(255,255,255,0.04); }
+.cert-thumbnail img { width:150px; height:95px; object-fit:cover; border-radius:9px; border:1px solid rgba(265,265,265,0.05); }
 .cert-actions .btn { margin-top:0.5rem; }
 
 /* EDUCATION */

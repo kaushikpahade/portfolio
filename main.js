@@ -5,7 +5,7 @@
   const $ = (s) => document.querySelector(s);
   const safe = (fn) => { try { fn(); } catch (e) { console.error(e); } };
 
-  let siteRevealed = false; // ✅ new flag
+  let siteRevealed = false; // new flag
 
   document.addEventListener('DOMContentLoaded', () => {
     const splash = $('#splash');
@@ -29,7 +29,7 @@
 
     // reveal site safely
     function showSite(reason = 'timer') {
-      if (siteRevealed) return; // ✅ prevent multiple triggers
+      if (siteRevealed) return; //  prevent multiple triggers
       siteRevealed = true;
 
       if (rot) clearInterval(rot);
@@ -41,7 +41,7 @@
           splash.remove();
           site?.removeAttribute('hidden');
           initAfterSplash();
-          console.info('✅ Site revealed:', reason);
+          console.info(' Site revealed:', reason);
         }, 420);
       } else {
         site?.removeAttribute('hidden');
